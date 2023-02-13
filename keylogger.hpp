@@ -210,6 +210,10 @@ namespace keylogger {
             log = console_log;
         }
 
+        ~keylogger() {
+            stopThread();
+        }
+
         void setFilename(std::string filename) {
             _filename = filename;
         }

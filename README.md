@@ -1,4 +1,5 @@
 # keylogger-cpp
+simple windows keylogger class
 
 ### Instalation
 `$ git clone https://github.com/vende11s/keylogger-cpp`
@@ -10,3 +11,4 @@
 keylogger::keylogger log ("log.txt");
 log.start();
 ```
+### [Documentation](docs.md)

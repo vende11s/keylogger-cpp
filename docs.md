@@ -1,14 +1,14 @@
 ## Contents
 - [Constructor](#Constructor)
-- [setFilename](#setFilename())
-- [setConsoleLogging](#setConsoleLogging())
+- [setFilename](#setFilename)
+- [setConsoleLogging](#setConsoleLogging)
 - [start](#start)
 - [Running keylogger as a thread](#Running-keylogger-as-a-thread)
   - [Example of threaded code](#Example-of-threaded-code)
-  - [startThread](#startThread())
-  - [stopThread](#stopThread())
+  - [startThread](#startThread)
+  - [stopThread](#stopThread)
   - [getLogs](#getLogs)
-  - [state](#state())
+  - [state](#state)
 
 ### Constructor
 constructor takes 2 arguments:

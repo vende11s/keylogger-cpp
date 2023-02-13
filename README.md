@@ -8,5 +8,5 @@
 #include "keylogger-cpp/keylogger.hpp"
 
 keylogger::keylogger log ("log.txt");
-log.start()
+log.start();
 ```
